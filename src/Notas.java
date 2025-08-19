@@ -15,8 +15,18 @@ public class Notas {
         double nota3 = sc.nextDouble();
 
         Double media = (nota1 + nota2 + nota3) /3;
-        System.out.printf("A média do aluno é: %.2f", media);
+        System.out.printf("A média do aluno é: %.2f ", media);
 
+        if (media >= 6){
+            System.out.println("Aluno aprovado");
+        } 
+        else if (media >= 5){
+            System.out.println("Aluno em recuperação");
+        }
+        else{
+            System.out.println("Aluno reprovado");
+        }
+    
         sc.close();
     }
 }
