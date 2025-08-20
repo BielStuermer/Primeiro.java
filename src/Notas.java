@@ -1,3 +1,6 @@
+//Faça um algoritmo que leia duas notas e peso de cada uma delas. Após calcule a média ponderada.
+
+
 import java.util.Scanner;
 
 public class Notas {
